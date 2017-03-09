@@ -46,8 +46,7 @@ gulp.task('default', (['clean', 'css', 'js', 'watch', 'serve']));
 
 // npm install --save-dev browser-sync
 gulp.task('serve', function() {
-	browserSync.init({
-		port : 3200,
+	browserSync.init({		
 		server: {
 			baseDir: './'
 		}

@@ -1,2 +1,2 @@
 # gulp-sample
-A simple Gupl tutorial
+A simple Gulp tutorial
